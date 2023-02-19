@@ -9,7 +9,7 @@ travel_distance = 20
 screen = Screen()
 screen.colormode(255)
 tim.width(4)
-tim.speed(3)
+tim.speed(10)
 
 for _ in range(1000):
     r: int = randint(0, 256)
