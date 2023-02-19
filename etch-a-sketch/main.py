@@ -21,7 +21,10 @@ def rotate_clockwise():
 
 
 def reset():
-    tim.reset()
+    tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
 
 
 screen.listen()
